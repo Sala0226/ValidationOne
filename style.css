@@ -1,237 +1,267 @@
-.container{
-    padding-bottom: 80px; 
+.container {
+    padding-bottom: 80px;
 }
+
 /* Partie Une */
 /* Left */
-.left{
+.left {
     margin-left: 6%;
     margin-top: 6vw;
 }
-.one{
+
+.one {
     border: 1px solid rgb(188, 59, 102);
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
     width: 80px;
     height: 80px;
-    margin: 0 0 -130px -80px; 
-    background-color: rgb(188, 59, 102) ;
-}
-.two{
-    border: 1px solid yellow; 
-    margin: 130px -0px 0px -80px; 
-    width: 80px; 
-    height: 80px; 
-    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15% ; 
-    background-color: yellow;
-}
-.three{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -80px -10px 0px 0px; 
-    width: 80px; 
-    height: 80px; 
-    border-radius:0% 100% 100% 0% / 72% 100% 0% 28%  ; 
+    margin: 0 0 -130px -80px;
     background-color: rgb(188, 59, 102);
 }
-.four{
-    border: 1px solid rgb(188, 59, 102); 
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
-    width: 80px; 
-    height: 80px; 
-    margin: 0 0 -130px -80px; 
-    background-color: rgb(188, 59, 102) ;
+
+.two {
+    border: 1px solid yellow;
+    margin: 130px -0px 0px -80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15%;
+    background-color: yellow;
 }
-.five{
+
+.three {
+    border: 1px solid rgb(188, 59, 102);
+    margin: -80px -10px 0px 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: rgb(188, 59, 102);
+}
+
+.four {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 -130px -80px;
+    background-color: rgb(188, 59, 102);
+}
+
+.five {
     border: 1px solid aquamarine;
-    border-radius:100% 0% 0% 100% / 100% 0% 100% 0%  ; 
-    width: 80px; 
-    height: 80px; 
-    margin: 50px 0 -90px 0; 
-    background-color: aquamarine ;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    width: 80px;
+    height: 80px;
+    margin: 50px 0 -90px 0;
+    background-color: aquamarine;
 }
-.six img{
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
+
+.six img {
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
     width: 80px;
     height: 80px;
     margin: 90px 0 0 0;
 }
-.seven{
-   border: 1px solid yellow; 
-   border-radius:100% 0% 100% 0% / 0% 0% 100% 100% ;
-   width: 80px; 
-   height: 80px;
-   margin: -80px 0 0 80px;
-   background-color: yellow;
-}
-.eight{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -80px -10px -60px 160px; 
-    width: 80px; 
-    height: 80px; 
-    border-radius:0% 100% 100% 0% / 72% 100% 0% 28%  ; 
-    background-color: rgb(188, 59, 102);
-}
-.nine{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -180px 0px 0px 90px; 
-    width: 80px; 
-    height: 80px; 
-    border-radius:50%  ; 
-    background-color: rgb(188, 59, 102);
-}
-.dix{
-    width: 80px; 
+
+.seven {
+    border: 1px solid yellow;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
-    background-color: aquamarine ;
-    margin-left: -79px;
-    margin-top: 80px ;
+    margin: -80px 0 0 80px;
+    background-color: yellow;
 }
-.deuxe{
-    width: 80px; 
-    height: 80px; 
-    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100% ;
-    background-color: rgb(188, 59, 102);
-    margin-top: 80px ;
-}
-.dixe{
-    width: 80px; 
+
+.eight {
+    border: 1px solid rgb(188, 59, 102);
+    margin: -80px -10px -60px 160px;
+    width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
-    background-color: aquamarine ;
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: rgb(188, 59, 102);
+}
+
+.nine {
+    border: 1px solid rgb(188, 59, 102);
+    margin: -180px 0px 0px 90px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(188, 59, 102);
+}
+
+.dix {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
+    background-color: aquamarine;
     margin-left: -79px;
-    margin-top: 160px ;
+    margin-top: 80px;
+}
+
+.deuxe {
+    width: 80px;
+    height: 80px;
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+    background-color: rgb(188, 59, 102);
+    margin-top: 80px;
+}
+
+.dixe {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
+    background-color: aquamarine;
+    margin-left: -79px;
+    margin-top: 160px;
 }
 
 /* Middle */
-.middle h1{
+.middle h1 {
     font-size: 1.8rem;
 }
-.bouton{
+
+.bouton {
     margin-left: 9vw;
 }
 
 /* Right  */
-.right{
+.right {
     margin-left: 92%;
 }
-.un{
-   border: 1px solid rgb(188, 59, 102); 
-   width: 80px; 
-   height: 80px; 
-   margin-top: -19vw;
-   border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
-   background-color: rgb(188, 59, 102); 
-}
-.deux{
-    width: 80px; 
-    height: 80px; 
-    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100% ;
-    background-color: rgb(188, 59, 102); 
-}
-.trois{
-    width: 80px; 
+
+.un {
+    border: 1px solid rgb(188, 59, 102);
+    width: 80px;
     height: 80px;
-    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
-    background-color: aquamarine ;
+    margin-top: -19vw;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: rgb(188, 59, 102);
 }
-.quatre img{
-    width: 87px; 
+
+.deux {
+    width: 80px;
+    height: 80px;
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+    background-color: rgb(188, 59, 102);
+}
+
+.trois {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: aquamarine;
+}
+
+.quatre img {
+    width: 87px;
     height: 80px;
     border-radius: 50%;
     margin-left: -7vw;
     margin-top: -7vw;
-   background-color: yellow;
+    background-color: yellow;
 }
-.quatree{
-    width: 80px; 
+
+.quatree {
+    width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-left: -13vw;
     margin-top: 13vw;
     background-color: yellow;
 }
-.cinq{
-    width: 80px; 
+
+.cinq {
+    width: 80px;
     height: 80px;
-    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
     margin-left: -82px;
     margin-top: -74px;
-    background-color: rgb(188, 59, 102); 
-}
-.sixe{
-   width: 80px; 
-   height: 80px; 
-   border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
-   background-color:yellow; 
-}
-.sixee{
-   width: 80px; 
-   height: 80px; 
-   border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
-   background-color:yellow;
-   margin-top: 80px; 
-   margin-left: -80px;
+    background-color: rgb(188, 59, 102);
 }
 
-.sept{
-    width: 80px; 
-    height: 80px; 
-    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15% ; 
-    background-color:  rgb(188, 59, 102);
+.sixe {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: yellow;
 }
-.huit{ 
-    width: 80px; 
-    height: 80px; 
-    border-radius:0% 100% 100% 0% / 72% 100% 0% 28%  ; 
-    background-color:yellow ;
+
+.sixee {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: yellow;
+    margin-top: 80px;
+    margin-left: -80px;
+}
+
+.sept {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15%;
+    background-color: rgb(188, 59, 102);
+}
+
+.huit {
+    width: 80px;
+    height: 80px;
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: yellow;
     margin-left: 80px;
     margin-top: -80px;
 }
-.neuf{ 
-   width: 80px; 
-   height: 80px; 
-   border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
-   background-color: aquamarine ; 
+
+.neuf {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: aquamarine;
 }
 
 /* Partie Deux */
-.square{
-    border: 1px solid  rgb(189, 231, 217);
+.square {
+    border: 1px solid rgb(189, 231, 217);
     width: 3vw;
     height: 5vh;
     border-radius: 1vh;
     background-color: rgb(189, 231, 217);
 }
 
-.button{
+.button {
     color: rgb(50, 218, 89);
     background-color: rgb(189, 231, 217);
 }
-h4{
+
+h4 {
     color: rgb(13, 49, 95);
 }
-.bi-tornado{
+
+.bi-tornado {
     color: aquamarine;
     background-color: rgb(228, 247, 241);
 }
-.long{
+
+.long {
     border: 1px solid rgb(189, 231, 217);
     width: 18vw;
     height: 80vh;
     position: relative;
 
 }
-.circle{
-    border: 1px solid   rgb(155, 244, 214);
+
+.circle {
+    border: 1px solid rgb(155, 244, 214);
     width: 2vw;
     height: 4vh;
     border-radius: 50%;
-    background-color:  rgb(155, 244, 214);
+    background-color: rgb(155, 244, 214);
     margin-left: 3vw;
 }
-.bi-bell{
+
+.bi-bell {
     padding-left: 9vw;
 }
-.blanc{
+
+.blanc {
     width: 15vw;
     height: 17vh;
     margin: auto;
@@ -239,28 +269,30 @@ h4{
 
 }
 
-.barre{
+.barre {
     width: 7vw;
     height: 2vh;
-    background-color:  rgb(155, 244, 214);
+    background-color: rgb(155, 244, 214);
     margin-top: 4vw;
     margin-left: 2vw;
 }
-.carre{
+
+.carre {
     width: 3vw;
     height: 6vh;
-    margin-top: 3vw;
-    margin-left: 2vw;
-}
-.carré{
-    width: 3vw;
-    height: 6vh;
-    background-color:  rgb(155, 244, 214);
     margin-top: 3vw;
     margin-left: 2vw;
 }
 
-.court{
+.carré {
+    width: 3vw;
+    height: 6vh;
+    background-color: rgb(155, 244, 214);
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+.court {
     position: absolute;
     border: 1px solid rgb(189, 231, 217);
     width: 13vw;
@@ -268,24 +300,26 @@ h4{
     margin-top: -24vw;
     margin-left: -6vw;
 }
-.carree{
+
+.carree {
     width: 3vw;
     height: 6vh;
     border-radius: 50%;
     margin-left: 2vw;
     margin-top: 1vw;
-    background-color:  rgb(155, 244, 214);
+    background-color: rgb(155, 244, 214);
 }
-.barree{
+
+.barree {
     width: 7vw;
     height: 2vh;
-    background-color:  rgb(155, 244, 214);
+    background-color: rgb(155, 244, 214);
     margin-top: 2vw;
     margin-left: 1vw;
 }
 
 /* Partie Trois */
-.courte{
+.courte {
     position: absolute;
     border: 1px solid rgb(189, 231, 217);
     width: 13vw;
@@ -297,111 +331,129 @@ h4{
 .marge {
     padding-left: 8vw;
 }
-.bi-map-fill{
+
+.bi-map-fill {
     color: aquamarine;
     background-color: rgb(228, 247, 241);
 }
 
-.uno{
+.uno {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
+    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
     background-color: aquamarine;
     margin-left: 5vw;
 }
-.dos{
+
+.dos {
     width: 80px;
     height: 80px;
-    border-radius:0% 100% 0% 100% / 100% 100% 0% 0%  ;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%;
     background-color: yellow;
     margin-left: 5vw;
 }
-.trez{
+
+.trez {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
+    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
     background-color: rgb(188, 59, 102);
     margin-left: 5vw;
 }
-.quatro{
+
+.quatro {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
     background-color: aquamarine;
     margin-left: 5vw;
 }
-.cinqo{
+
+.cinqo {
     width: 80px;
     height: 80px;
-    border-radius:0% 100% 0% 100% / 100% 100% 0% 0%  ;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%;
     background-color: aquamarine;
 }
-.seite{
+
+.seite {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
     background-color: aquamarine;
 }
-.coller{
+
+.coller {
     margin-top: -240px;
     margin-left: -16px;
 }
-.bi-tools{
+
+.bi-tools {
     color: aquamarine;
     background-color: rgb(228, 247, 241);
 }
-.bi-people{
+
+.bi-people {
     color: aquamarine;
     background-color: rgb(228, 247, 241);
 }
-.bandeYellow{
+
+.bandeYellow {
     text-align: center;
     background-color: yellow;
     margin-left: 13vw;
     padding: 30px;
 }
-.boutone{
-    background-color:rgb(188, 59, 102);
+
+.boutone {
+    background-color: rgb(188, 59, 102);
 }
-.boutone:hover{
+
+.boutone:hover {
     opacity: 0.7;
     color: pink !important;
 }
-.title{
+
+.title {
     font-size: 1.7rem;
 }
-.unos{
+
+.unos {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    background-color:rgb(188, 59, 102);
+    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
+    background-color: rgb(188, 59, 102);
     margin-top: 5px;
     margin-left: -81px;
 }
-.dose{
+
+.dose {
     width: 80px;
     height: 80px;
-    border-radius:0% 100% 100% 0% / 100% 0% 100% 0%  ;
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0%;
     background-color: aquamarine;
     margin-left: -80px;
     margin-top: 85px;
 }
-.treze{
+
+.treze {
     width: 80px;
     height: 80px;
-    border-radius:0% 100% 100% 0% / 100% 0% 100% 0%  ;
-    background-color:rgb(188, 59, 102);
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0%;
+    background-color: rgb(188, 59, 102);
     margin-left: -160px;
     margin-top: 163px;
 }
-.unose{
+
+.unose {
     width: 80px;
     height: 80px;
-    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    background-color:rgb(188, 59, 102);
+    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
+    background-color: rgb(188, 59, 102);
     margin-top: 163px;
 }
-.large-circle{
+
+.large-circle {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -409,7 +461,8 @@ h4{
     margin-top: 40px;
     margin-left: 20px;
 }
-.bi-geo-alt-fill{
+
+.bi-geo-alt-fill {
     color: aquamarine;
     margin-left: 40px;
 }
@@ -417,134 +470,206 @@ h4{
 
 
 /* Responsivité */
-@media screen and (max-width:768px){
-    .container{
-           margin: 0;
-           padding: 0;
+@media screen and (max-width:768px) {
+    .container {
+        margin: 0;
+        padding: 0;
     }
 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30vw;
+        gap: 5vw;
+    }
+    .logo{
+        padding-left: 35vw;
+    }
+    .btn{
+        margin-right: -5vw;
+        margin-bottom: 7vw;
+    }
     /* left */
-    .left{
-    margin-left: 6%;
-    margin-top: 2vw;
+    .left {
+        margin-left: 2%;
+        margin-top: -12vw;
+    }
+
+    .three,.four,.five,.seven,.eight,.nine {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+
+    .one,.two {
+        width: 0;
+        height: 0;
+    }
+    
+    .nine{
+        margin-left: 8vw;
+        margin-top: -15vw;
+    }
+    .six img {
+        border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+
+    /* Middle */
+    .middle h1 {
+        font-size: 1.2rem;
+        margin-top: -80vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    .middle p {
+        font-size: 1rem;
+        padding-left: 21vw;
+        padding-right: 20vw;
+    }
+
+    .bouton {
+        margin-left: 25vw;
+        margin-top: 10px;
+        width: 42%;
+        padding: 0;
+    }
+
+    /* Right  */
+    .right {
+        margin-left: 82%;
+    }
+
+    .un,.deux,.trois,.cinq,.sixe,.sept,.huit,.neuf {
+        width: 40px;
+        height: 40px;
+    }
+
+    .quatre img {
+        width: 43px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+    /* Partie 2  */
+    .square {
+       margin-left: 50%;  
+       width: 40px;  
+    }
+    .droite{
+        margin-left: 48%;
+    }
+.button {
+   
 }
-.one{
-    border: 1px solid rgb(188, 59, 102);
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
-    width: 40px;
-    height: 40px;
-   margin-left: -5px; 
-    background-color: rgb(188, 59, 102) ;
+
+h4 {
+   
 }
-.two{
-    border: 1px solid yellow; 
-    margin: 130px -0px 0px -80px; 
-    width: 40px; 
-    height: 40px; 
-    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15% ; 
-    background-color: yellow;
+
+
+
+.long {
+    border: 1px solid rgb(189, 231, 217);
+    width: 18vw;
+    height: 80vh;
+    position: relative;
+
 }
-.three{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -80px -10px 0px 0px; 
-    width: 40px; 
-    height: 40px; 
-    border-radius:0% 100% 100% 0% / 72% 100% 0% 28%  ; 
-    background-color: rgb(188, 59, 102);
+
+.circle {
+    border: 1px solid rgb(155, 244, 214);
+    width: 2vw;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: rgb(155, 244, 214);
+    margin-left: 3vw;
 }
-.four{
-    border: 1px solid rgb(188, 59, 102); 
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
-    width: 40px; 
-    height: 40px; 
-    margin: 0 0 -130px -80px; 
-    background-color: rgb(188, 59, 102) ;
+
+.bi-bell {
+    padding-left: 9vw;
 }
-.five{
-    border: 1px solid aquamarine;
-    border-radius:100% 0% 0% 100% / 100% 0% 100% 0%  ; 
-    width: 40px; 
-    height: 40px; 
-    margin: 50px 0 -90px 0; 
-    background-color: aquamarine ;
+
+.blanc {
+    width: 15vw;
+    height: 17vh;
+    margin: auto;
+    border-radius: 1vw;
+
 }
-.six img{
-    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%; 
-    width: 40px;
-    height: 40px;
-    margin: 90px 0 0 0;
+
+.barre {
+    width: 7vw;
+    height: 2vh;
+    background-color: rgb(155, 244, 214);
+    margin-top: 4vw;
+    margin-left: 2vw;
 }
-.seven{
-   border: 1px solid yellow; 
-   border-radius:100% 0% 100% 0% / 0% 0% 100% 100% ;
-   width: 40px; 
-   height: 40px;
-   margin: -80px 0 0 80px;
-   background-color: yellow;
+
+.carre {
+    width: 3vw;
+    height: 6vh;
+    margin-top: 3vw;
+    margin-left: 2vw;
 }
-.eight{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -80px -10px -60px 160px; 
-    width: 40px; 
-    height: 40px; 
-    border-radius:0% 100% 100% 0% / 72% 100% 0% 28%  ; 
-    background-color: rgb(188, 59, 102);
-}
-.nine{
-    border: 1px solid rgb(188, 59, 102); 
-    margin: -180px 0px 0px 90px; 
-    width: 40px; 
-    height: 40px; 
-    border-radius:50%  ; 
-    background-color: rgb(188, 59, 102);
-}
+
 }
 
 /* Partie Quatre */
-.mini-barre{
+.mini-barre {
     width: 2vw;
     height: 6px;
     margin-left: 20px;
     background-color: aquamarine;
 }
-.mini-barre:hover{
+
+.mini-barre:hover {
     opacity: 0.5;
     background-color: rgb(35, 238, 170);
 }
 
-.less-marge{
+.less-marge {
     margin-bottom: -15vw;
 }
-.endDesign{
-  width: 80px;
-  height: 80px;
-  border-radius: 100% 0% 0% 100% / 52% 0% 100% 48% ;
-  background-color: rgb(188, 59, 102);
-  margin-top: -5vw;
-  margin-left: -25px;
+
+.endDesign {
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 0% 0% 100% / 52% 0% 100% 48%;
+    background-color: rgb(188, 59, 102);
+    margin-top: -5vw;
+    margin-left: -25px;
 }
-.endDesigne{
+
+.endDesigne {
     margin-left: -45px;
 }
-.first{
+
+.first {
     width: 80px;
     height: 55px;
-    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
     background-color: aquamarine;
 }
-.second{
+
+.second {
     width: 80px;
     height: 55px;
-    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%;
     background-color: aquamarine;
     margin-top: -8vw;
 }
-.last{
-font-size:small;
-text-decoration: none;
+
+.last {
+    font-size: small;
+    text-decoration: none;
 }
-.laste{
-   font-size:small;
-   margin-left: -5vw;
-   padding-bottom: 2vw; 
+
+.laste {
+    font-size: small;
+    margin-left: -5vw;
+    padding-bottom: 2vw;
 }
