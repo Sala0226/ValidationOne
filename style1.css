@@ -1,0 +1,231 @@
+/* Global */
+.container {
+    min-height: 6vh;
+    padding-top: 2rem;
+}
+
+/* Left */
+.left {
+    margin-left: 6%;
+    margin-top: 6vw;
+    text-align: center;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six img,
+.seven,
+.eight,
+.nine {
+    width: 80px;
+    height: 80px;
+    margin: 0.5rem auto;
+}
+
+/* Shapes */
+.one {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
+    background-color: rgb(188, 59, 102);
+    margin: 0 0 -130px -80px;
+}
+.two {
+    border: 1px solid yellow;
+    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15%;
+    background-color: yellow;
+    margin: 130px 0 0 -80px;
+}
+.three {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: rgb(188, 59, 102);
+    margin: -80px -10px 0px 0px;
+}
+.four {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
+    background-color: rgb(188, 59, 102);
+}
+.five {
+    border: 1px solid aquamarine;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    background-color: aquamarine;
+    margin: 50px 0 -90px 0;
+}
+.six img {
+    border: 1px solid;
+    border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: 90px;
+}
+.seven {
+    border: 1px solid yellow;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: yellow;
+    margin-left: 80px;
+    margin-top: -80px;
+}
+.eight {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: rgb(188, 59, 102);
+    margin: -80px -10px -60px 160px;
+}
+.nine {
+    border-radius: 50%;
+    background-color: rgb(188, 59, 102);
+    margin-left: 90px;
+    margin-top: -180px;
+}
+
+/* Middle */
+.middle {
+    text-align: center;
+}
+.middle h1 {
+    font-size: 1.8rem;
+}
+.middle p {
+    font-size: 1rem;
+}
+.bouton {
+    margin-top: 1rem;
+    padding: 0.6rem 2rem;
+}
+
+/* Right */
+.right {
+    text-align: center;
+    margin-top: 2rem;
+}
+.un,
+.deux,
+.trois,
+.cinq,
+.sixe,
+.sept,
+.huit,
+.neuf {
+    width: 80px;
+    height: 80px;
+    margin: 0.5rem auto;
+}
+.un {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: rgb(188, 59, 102);
+    margin-top: -15vw;
+}
+.deux {
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+    background-color: rgb(188, 59, 102);
+}
+.trois {
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: aquamarine;
+}
+.quatre img {
+    width: 87px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+    background-color: yellow;
+}
+.cinq {
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+    background-color: rgb(188, 59, 102);
+    margin: -74px auto 0 auto;
+}
+.sixe {
+    border: 1px solid rgb(188, 59, 102);
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: rgb(188, 59, 102);
+    margin: -6vw auto;
+}
+.mix {
+    margin-top: -290px;
+}
+.sept {
+    border: 1px solid yellow;
+    border-radius: 100% 0% 100% 0% / 85% 100% 0% 15%;
+    background-color: yellow;
+}
+.huit {
+    border-radius: 0% 100% 100% 0% / 72% 100% 0% 28%;
+    background-color: aquamarine;
+}
+.neuf {
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+    background-color: aquamarine;
+    margin-top: -112px;
+}
+
+/* ----------- Responsive ----------- */
+@media screen and (max-width: 768px) {
+    .left,
+    .middle,
+    .right {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .middle h1 {
+        font-size: 1.5rem;
+    }
+
+    .middle p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .bouton {
+        margin: 1rem auto;
+        display: inline-block;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six img,
+    .seven,
+    .eight,
+    .nine,
+    .un,
+    .deux,
+    .trois,
+    .cinq,
+    .sixe,
+    .sept,
+    .huit,
+    .neuf {
+        width: 60px;
+        height: 60px;
+        margin: 0.4rem auto;
+    }
+
+    .six img,
+    .quatre img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .right,
+    .left {
+        margin-left: 0 !important;
+    }
+
+    .un {
+        margin-top: 1rem;
+    }
+
+    .mix {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
