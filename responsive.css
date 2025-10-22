@@ -1,0 +1,201 @@
+/* Responsivité */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width:100%;
+    }
+    .containerX {
+        overflow-x: hidden;
+        padding: 20px;
+} 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30vw;
+        gap: 5vw;
+    }
+    .logo{
+        padding-left: 35vw;
+    }
+    .btn{
+        margin-right: -5vw;
+        margin-bottom: 7vw;
+    }
+    /* left */
+    .left {
+        margin-left: 2%;
+        margin-top: 12vw;
+    }
+
+    .three, .four, .five, .seven, .eight, .nine, .six img {
+        width: 40px;
+        height: 40px;
+        margin: 5px; 
+        display: inline-block; 
+    }
+
+    .one,.two {
+       display: none;
+    }
+    
+
+    /* Middle */
+    .middle{
+        width: 100%;
+        text-align: center;
+        margin-top: 5vw; 
+    }
+    .middle h1, .middle p {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        padding: 0 5vw; 
+        max-width: 90%;
+    }
+    
+    .bouton {
+        margin: 50px auto;
+        width: 60%;
+        padding: 10px 0;
+    }
+
+    /* Right  */
+    .right, .left {
+       margin-left: 0; 
+       margin-right: 0; 
+       width: 100%; 
+       text-align: center;
+    }
+    
+    .un, .deux, .trois, .cinq, .sixe, .neuf, .quatre img {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    /* Partie 2  */
+    .square {
+       margin-left: 45%;  
+       width: 40px;  
+    }
+    .droite{
+        margin-left: 40%;
+    }
+.space-center{
+    margin-left: 0;
+    text-align: center;
+}
+.deux, .quatree {
+    width: 40px;
+    height: 40px;
+}
+.quatree{
+    margin: 0 auto;
+    display: block;
+}
+.sixee, .dixe, .deuxe{
+    margin: 10px auto;
+    width: 0;
+    height: 0;
+}
+
+.long {
+    width: 80vw; 
+    height: auto;
+    margin: 10vw auto 5vw auto;
+}
+.longue, .cote, .centre{
+    margin-left: 0;
+    text-align: center;
+}
+.longue{
+    
+}
+.sept{
+    margin-top: 0;
+    margin-left: 15vw;
+}
+.huit{
+    margin-top: 0;
+    margin-left: 25vw;
+}
+.court, .courte, .carree, .barree, .circle, .carre {
+        width: 0;
+        height: 0;
+    }
+
+.carré{
+    margin-top:0;
+    width: 0px;
+    height: 0px;
+    margin-left: 0;
+}
+
+
+.bi-bell {
+    padding-left: 0;
+    margin-top: 3vw;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blanc {
+    width:80%;
+    height: auto;
+    margin: auto;
+    padding-top: 10vw;
+
+}
+
+ /* Partie Trois */
+.bandeYellow {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.unos, .treze, .dose{
+    display: none;
+}
+.unose {
+   display: none;
+}
+.restitle{
+    font-size: large;
+    padding-top: 5px;
+}
+.respara{
+    font-size: smaller;
+}
+
+/* Partie quatre */
+.center{
+    margin-left: 12%;
+    margin-top: 5vw;
+}
+.endDesign, .second {
+        width: 40px;
+        height: 40px;
+        margin: 15vw auto; 
+        display: block;
+    }
+
+    .laste, .last {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+
+.endDesigne {
+    margin-left: -5px;
+}
+
+.first {
+    display: none;
+}
+
+}
+
+@media (min-width: 900px)

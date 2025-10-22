@@ -1,8 +1,23 @@
-.container {
-    padding-bottom: 80px;
+*{
+    outline: red;
 }
 
+ .containerX {
+    overflow-x: hidden;
+    padding: 20px;
+} 
+
 /* Partie Une */
+/* Menu-Burger */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
 /* Left */
 .left {
     margin-left: 6%;
@@ -121,6 +136,7 @@
 
 .bouton {
     margin-left: 9vw;
+    
 }
 
 /* Right  */
@@ -465,157 +481,6 @@ h4 {
 .bi-geo-alt-fill {
     color: aquamarine;
     margin-left: 40px;
-}
-
-
-
-/* Responsivité */
-@media screen and (max-width:768px) {
-    .container {
-        margin: 0;
-        padding: 0;
-    }
-
-    .flex{
-        display: flex;
-        flex-direction: column;
-        padding-left: 30vw;
-        gap: 5vw;
-    }
-    .logo{
-        padding-left: 35vw;
-    }
-    .btn{
-        margin-right: -5vw;
-        margin-bottom: 7vw;
-    }
-    /* left */
-    .left {
-        margin-left: 2%;
-        margin-top: -12vw;
-    }
-
-    .three,.four,.five,.seven,.eight,.nine {
-        width: 40px;
-        height: 40px;
-        margin: 0;
-    }
-
-    .one,.two {
-        width: 0;
-        height: 0;
-    }
-    
-    .nine{
-        margin-left: 8vw;
-        margin-top: -15vw;
-    }
-    .six img {
-        border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
-        width: 40px;
-        height: 40px;
-        margin: 0;
-    }
-
-    /* Middle */
-    .middle h1 {
-        font-size: 1.2rem;
-        margin-top: -80vw;
-        padding-left: 20vw;
-        padding-right: 20vw;
-    }
-
-    .middle p {
-        font-size: 1rem;
-        padding-left: 21vw;
-        padding-right: 20vw;
-    }
-
-    .bouton {
-        margin-left: 25vw;
-        margin-top: 10px;
-        width: 42%;
-        padding: 0;
-    }
-
-    /* Right  */
-    .right {
-        margin-left: 82%;
-    }
-
-    .un,.deux,.trois,.cinq,.sixe,.sept,.huit,.neuf {
-        width: 40px;
-        height: 40px;
-    }
-
-    .quatre img {
-        width: 43px;
-        height: 40px;
-        border-radius: 50%;
-    }
-    
-    /* Partie 2  */
-    .square {
-       margin-left: 50%;  
-       width: 40px;  
-    }
-    .droite{
-        margin-left: 48%;
-    }
-.button {
-   
-}
-
-h4 {
-   
-}
-
-
-
-.long {
-    border: 1px solid rgb(189, 231, 217);
-    width: 18vw;
-    height: 80vh;
-    position: relative;
-
-}
-
-.circle {
-    border: 1px solid rgb(155, 244, 214);
-    width: 2vw;
-    height: 4vh;
-    border-radius: 50%;
-    background-color: rgb(155, 244, 214);
-    margin-left: 3vw;
-}
-
-.bi-bell {
-    padding-left: 9vw;
-}
-
-.blanc {
-    width: 15vw;
-    height: 17vh;
-    margin: auto;
-    border-radius: 1vw;
-
-}
-
-.barre {
-    width: 7vw;
-    height: 2vh;
-    background-color: rgb(155, 244, 214);
-    margin-top: 4vw;
-    margin-left: 2vw;
-}
-
-.carre {
-    width: 3vw;
-    height: 6vh;
-    margin-top: 3vw;
-    margin-left: 2vw;
-}
-
 }
 
 /* Partie Quatre */
