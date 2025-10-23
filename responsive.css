@@ -1,5 +1,5 @@
 /* Responsivité */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 900px) {
     .container {
         margin: 0;
         padding: 0;
@@ -9,6 +9,7 @@
     .containerX {
         overflow-x: hidden;
         padding: 20px;
+        margin-left: 5vw;
 } 
     .flex{
         display: flex;
@@ -102,7 +103,7 @@
 }
 
 .long {
-    width: 80vw; 
+    width: 70vw; 
     height: auto;
     margin: 10vw auto 5vw -3vw;
 }
@@ -111,7 +112,7 @@
     text-align: center;
 }
 .longue{
-    width: 65vw;
+    width: 55vw;
 }
 .sept{
     margin-top: 0;
@@ -151,6 +152,9 @@
 }
 
  /* Partie Trois */
+ .centree{
+    margin-left: 12vw;
+ }
 .bandeYellow {
     width: 90%;
     margin: 0 auto;
@@ -169,7 +173,9 @@
 .respara{
     font-size: smaller;
 }
-
+.centre{
+    margin-left: -1vw;
+}
 /* Partie quatre */
 .center{
     margin-left: 12%;
@@ -198,197 +204,3 @@
 
 }
 
-@media (max-width: 900px) {
-    .flex{
-        display: flex;
-        flex-direction: column;
-        padding-left: 10vw;
-        gap: 5vw;
-    }
-    .logo{
-        padding-left: 35vw;
-    }
-    .btn{
-        margin-right: 5vw;
-        margin-bottom: 7vw;
-    }
-    /* left */
-    .left {
-        margin-left: 2%;
-        margin-top: 12vw;
-    }
-
-    .three, .four, .five, .seven, .eight, .nine, .six img {
-        width: 40px;
-        height: 40px;
-        margin: 5px; 
-        display: inline-block; 
-    }
-
-    .one,.two {
-       display: none;
-    }
-    
-
-    /* Middle */
-    .middle{
-        width: 100%;
-        text-align: center;
-        margin-top: 5vw; 
-    }
-    .middle h1, .middle p {
-        font-size: 1.2rem;
-        margin: 0 auto;
-        padding: 0 5vw; 
-        max-width: 90%;
-    }
-    
-    .bouton {
-        margin: 50px auto;
-        width: 60%;
-        padding: 10px 0;
-    }
-
-    /* Right  */
-    .right, .left {
-       margin-left: 0; 
-       margin-right: 0; 
-       width: 100%; 
-       text-align: center;
-    }
-    
-    .un, .deux, .trois, .cinq, .sixe, .neuf, .quatre img {
-        width: 40px;
-        height: 40px;
-        margin: 5px;
-        display: inline-block;
-    }
-    
-    /* Partie 2  */
-    .square {
-       margin-left: 45%;  
-       width: 40px;  
-    }
-    .droite{
-        margin-left: 40%;
-    }
-.space-center{
-    margin-left: 0;
-    text-align: center;
-}
-.deux, .quatree {
-    width: 40px;
-    height: 40px;
-}
-.quatree{
-    margin: 0 auto;
-    display: block;
-}
-.sixee, .dixe, .deuxe{
-    margin: 10px auto;
-    width: 0;
-    height: 0;
-}
-
-.long {
-    width: 30vw; 
-    height: auto;
-    margin: 10vw auto 5vw auto;
-}
-.longue, .cote, .centre{
-    margin-left: 0px;
-    text-align: center;
-}
-
-.sept{
-    margin-top: 0;
-    margin-left: 5vw;
-}
-.huit{
-    margin-top: 0;
-    margin-left: 10vw;
-}
-    .courte, .circle, .carre {
-        width: 0;
-        height: 0;
-    }
-.court{
-    width: 30vw;
-    height: 25vw;
-    margin-left: -60vw;
-    padding-bottom: 12vw;
-}
-.carré{
-    margin-top:0;
-    width: 0px;
-    height: 0px;
-    margin-left: 0;
-}
-.carree, .barree{
-    width: 3vw;
-    height: 5vw;
-}
-
-.bi-bell {
-    padding-left: 0;
-    margin-top: 3vw;
-    text-align: right;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.blanc {
-    width:80%;
-    height: auto;
-    margin: auto;
-    padding-top: 10vw;
-
-}
-.centre{
-    margin-left: 2vw;
-}
-
- /* Partie Trois */
-.bandeYellow {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.unos, .treze, .dose{
-    display: none;
-}
-.unose {
-   display: none;
-}
-.restitle{
-    font-size: large;
-    padding-top: 5px;
-}
-.respara{
-    font-size: smaller;
-}
-
-/* Partie quatre */
-.center{
-    margin-left: 12%;
-    margin-top: 5vw;
-}
-.endDesign, .second {
-       display: none;
-    }
-
-    .laste, .last {
-        margin-left: 0;
-        text-align: center;
-        display: block;
-    }
-
-.endDesigne {
-   display: none;
-}
-
-.first {
-    display: none;
-}
-
-}
