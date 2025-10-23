@@ -4,9 +4,19 @@
 
  .containerX {
     overflow-x: hidden;
-    padding: 20px;
+    padding: 10px;
+    margin-right: 20px;
 } 
-
+.container {
+        margin: 0;
+        margin-left: 10px;
+        padding: 0;
+        width: 100%;
+        max-width:100%;
+    }  
+    .navbar{
+       margin-left: 2vw;
+    }  
 /* Partie Une */
 /* Menu-Burger */
 .navbar-toggler {
@@ -23,7 +33,11 @@
     margin-left: 6%;
     margin-top: 6vw;
 }
-
+.container-shape{
+   padding-left: 3vw;
+   padding-right: 4vw;
+   padding-bottom: 6vw;
+}
 .one {
     border: 1px solid rgb(188, 59, 102);
     border-radius: 100% 0% 15% 85%/0% 100% 0% 100%;
@@ -434,6 +448,9 @@ h4 {
     font-size: 1.7rem;
 }
 
+.centre{
+    margin-left: 15vw;
+}
 .unos {
     width: 80px;
     height: 80px;
